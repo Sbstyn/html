@@ -3,14 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body, html {
+html {
     height: 100%;
 }
 body {
     background-image: linear-gradient(rgb(102, 0, 0), red);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
 }
 .container{
     text-align: center;

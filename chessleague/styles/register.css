@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav img{
+    height: 24px;
+    width: 18px;
+}
+
+nav{
+    margin: 10px 5% 30px 3%;
+}
+
+nav h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    color: white;
+}
+
+nav a{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-top: 20px;
+}
+
+form{
+    margin-top: 25px;
+}
+
+form input{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    background: none;
+}
+
+form button{
+    margin-top: 15px;
+    background: none;
+    color: white;
+    font-size: 15px;
+    border: 3px solid white;
+    padding: 10px 20px;
+}
+
+main{
+    text-align: center;
+}
+
+main a{
+    text-decoration: underline;
+    color: white;
+}

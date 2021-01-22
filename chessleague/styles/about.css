@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav img{
+    height: 24px;
+    width: 18px;
+}
+
+nav{
+    margin: 10px 5% 30px 3%;
+}
+
+nav h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    color: white;
+}
+
+nav a{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-top: 20px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.fdiv{
+    float: right;;
+}
+
+main{
+    text-align: center;
+}
+
+main a{
+    text-decoration: underline;
+    color: white;
+}
+
+main p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+span{
+    font-style: italic;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    nav a{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    p{
+        margin: 0 5%;
+    }
+}
+
+@media only screen and (max-width: 543px){
+    nav a{
+        font-size: 18px;
+        float: none;
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    nav{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-height: 600px) , (max-width: 845px){
+    footer{
+        visibility: hidden;
+    }
+}

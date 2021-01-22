@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    color: white;
+}
+
+.fdiv{
+    float: right;;
+}
+
+main{
+    text-align: center;
+}
+
+main a{
+    text-decoration: underline;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    text-decoration: none;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    nav a{
+        font-size: 18px;
+        float: none;
+        display: inline;
+    }
+}
